@@ -119,8 +119,9 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #020024;
+    background: linear-gradient(179deg,rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 0 2px 10px rgba(, ffff, fff, 0.1);
     z-index: 1000;
     padding: 0 0;
 }
@@ -147,7 +148,7 @@ img {
     display: block;
     width: 24px;
     height: 2px;
-    background-color: var(--dark-color);
+    background-color: var(--white);
     position: relative;
     transition: var(--transition);
 }
@@ -191,6 +192,7 @@ img {
     font-weight: 600;
     padding: 0.5rem 0;
     position: relative;
+    color: var(--black);
 }
 
 .nav__link::after {
@@ -200,7 +202,7 @@ img {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
     transition: var(--transition);
 }
 
@@ -530,7 +532,8 @@ img {
 
 /* Footer */
 .footer {
-    background-color: var(--dark-color);
+    background: #090979;
+    background: linear-gradient(179deg,rgba(9, 9, 121, 1) 80%, rgba(0, 212, 255, 1) 100%);
     color: var(--white);
     padding: 3rem 0 0;
 }
